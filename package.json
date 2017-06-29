@@ -1,0 +1,33 @@
+{
+  "name": "purjus",
+  "version": "1.0.0",
+  "description": "Turn your JavaScript into a child book.",
+  "main": "es5/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel es6 -d es5 --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikedotJS/purjus.git"
+  },
+  "keywords": [
+    "lib",
+    "js",
+    "javascript",
+    "tools",
+    "functionnal",
+    "pure",
+    "functions"
+  ],
+  "author": "Mike Romain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikedotJS/purjus/issues"
+  },
+  "homepage": "https://github.com/mikedotJS/purjus#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  }
+}
