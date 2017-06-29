@@ -16,6 +16,4 @@ const PurJus = {
   }
 }
 
-console.log(PurJus.addTwoNumbers("Hello", 1))
-
 export default PurJus

@@ -23,6 +23,4 @@ var PurJus = {
 	}
 };
 
-console.log(PurJus.addTwoNumbers("Hello", 1));
-
 exports.default = PurJus;
